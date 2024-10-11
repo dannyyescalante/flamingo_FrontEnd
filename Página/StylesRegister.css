@@ -1,0 +1,210 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        header h1 img {
+            height: 100px;
+            width: auto;
+        }
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+            nav ul li a {
+                color: #333;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    color: #666;
+                }
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1D3557;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+                                
+.google-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+                                
+.google-btn:hover {
+    background-color: #357ae8;
+}
+
+main {
+    padding: 20px;
+}
+
+    main h2 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    main p {
+        margin: 0;
+    }
+    
+
+form {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+    form .phone-container {
+        display: flex;
+        align-items: center;
+    }
+
+    form .phone-container label {
+        margin-right: 5px;
+        flex-grow: 3;
+    }
+
+    form .phone-container select, .phone-container input {
+        flex-grow: 1;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="tel"] {
+        width: 93%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form select[id="id_type"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form select[id="tel_country_code"] {
+        width: 45%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form .or-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+        form .or-container div.line {
+            height: 1px;
+            width: 45%;
+            background-color: #ccc;
+        }
+
+        form .or-container .or-text {
+            margin: 0 auto;
+            white-space: nowrap;
+        }
+
+.icon {
+    height: 2em;
+    width: 2em;
+}
+
+
+    form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    form .icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+        form .icons a {
+            margin: 0 5px;
+        }
+
+    form .form-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+        form .form-bottom p {
+            margin: 0;
+            color: #666;
+        }
+
+        form .form-bottom a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+            form .form-bottom a:hover {
+                color: #3e8e41;
+            }

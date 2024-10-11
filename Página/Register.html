@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro | Expresos Flamingo</title>
+    <link rel="stylesheet" type="text/css" href="StylesRegister.css">
+</head>
+<body>
+    <header>
+        <h1><img src="logo.png" alt="Expresos Flamingo"></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Conócenos</a></li>
+            <li><a href="#ticketes">Ticketes ▾</a></li>
+            <li><a href="#iniciar-sesion">Iniciar sesión</a></li>
+            <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
+            <li><a href="#contactanos">Contáctanos</a></li>
+            <li><a href="#crear-cuenta">Crear cuenta</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <h2>Registro</h2>
+            <label for="id">Tipo de documento:</label>
+            <select id="id_type" name="id_type">
+                <option value="Seleccionar...">Seleccione...</option>
+                <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+                <option value="Cédula de extranjería">Cédula de extranjería</option>
+                <option value="Carnet de conducir">Carnet de conducir</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </select>
+
+            <label for="id">Número de identificación:</label>
+            <input type="text" id="id" name="id">
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Correo:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="email">Confirmar correo:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="password">Confirmar contraseña:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address">
+
+            <label for="zip_code">Código postal:</label>
+            <input type="text" id="zip_code" name="zip_code">
+
+            <label for="tel_country_code">Télefono:</label>
+            <div class="phone-container">
+                
+                <select id="tel_country_code" name="tel_country_code">
+                    <option value="+1">USA +1</option>
+                    <option value="+34">ESP +34</option>
+                    <option value="+51">PER +51</option>
+                    <option value="+52">MEX +52</option>
+                    <option value="+54">ARG +54</option>
+                    <option value="+57">COL +57</option>
+                    <option value="+58">VEN +58</option>
+                </select>
+            
+                <input type="tel" id="tel_number" name="tel_number">
+            </div>
+
+            <button type="submit">Registrarse</button>
+
+            <div style="text-align: center; margin: 10px 0;">
+                <hr style="width: 40%; display: inline-block; vertical-align: middle;">
+                <span> o </span>
+                <hr style="width: 40%; display: inline-block; vertical-align: middle;">
+            </div>
+
+            <button type="button" class="google-btn">
+                <img src="google.webp" alt="Google Logo"> Registrarse con Google
+            </button>
+
+            
+
+            <p>
+                ¿Ya tienes cuenta?
+                <a href="#"> Inicia sesión</a>
+            </p>
+        </form>
+    </main>
+</body>
+</html>

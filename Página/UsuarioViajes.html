@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Viajes | Expresos Flamingo</title>
+    <link rel="stylesheet" type="text/css" href="StylesUsuarioViajes.css">
+</head>
+<body>
+    <header>
+        <h1><img src="logo.png" alt="Expresos Flamingo"></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Conócenos</a></li>
+            <li><a href="#ticketes">Ticketes ▾</a></li>
+            <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
+            <li><a href="#contactanos">Contáctanos</a></li>
+            <li><a href="#cerrar-sesion">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <h2>Viajes disponibles</h2>
+                <div>
+                    <input type="text" id="filter" placeholder="Filtrar..." style="width: 71%;">
+                    <button type="button" id="filterButton">Filtrar</button><br>
+                    <table id="dataTable" style="width: 100%;">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Hora de salida</th>
+                                <th>Origen</th>
+                                <th>Destino</th>
+                                <th>Duración estimada</th>
+                                <th>Bus</th>
+                                <th>Terminal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center;">Dato 1</td>
+                                <td style="text-align: center;">Dato 2</td>
+                                <td style="text-align: center;">Dato 3</td>
+                                <td style="text-align: center;">Dato 4</td>
+                                <td style="text-align: center;">Dato 5</td>
+                                <td style="text-align: center;">Dato 6</td>
+                                <td style="text-align: center;">Dato 7</td>
+                                <td style="text-align: center;"><button id="boton_tabla">Comprar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
